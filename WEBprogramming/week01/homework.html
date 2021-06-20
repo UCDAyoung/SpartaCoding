@@ -1,0 +1,123 @@
+<!DOCTYPE html><!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+    <script>
+
+        $(document).ready(function () {
+            alert('다 로딩됐다!')
+            let price =
+        });
+
+    </script>
+    <title>TIMENEEDS</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            font-family: 'Nanum Myeongjo', serif;
+        }
+
+        .first {
+            background-color: #343a40;
+            width: 650px;
+            margin: auto;
+            padding: 1.5%;
+
+        }
+
+        .second {
+            border-radius: 10px;
+            background-color: white;
+            padding-top: 10%;
+        }
+
+        .card {
+            background-size: cover;
+        }
+
+        .order-top {
+            padding-left: 15px;
+        }
+
+        .order-body {
+            padding-left: 15px;
+            background-color: white;
+        }
+    </style>
+    <script>
+        function hey() {
+            alert('주문이 완료되었습니다. 감사합니다!');
+        }
+    </script>
+</head>
+<body class="zero">
+<div class="first" style="text-align:center;">
+    <div class="second">
+        <div class="card">
+            <img src="https://knowledge.insead.edu/sites/www.insead.edu/files/styles/panoramic/public/images/2018/12/gettyimages-840658734.jpg"
+                 class="card-img-top" alt="로딩 중일거에요..아마?" width=350;">
+        </div>
+        <p>
+        <div>
+        <span class="card-title" style="font-weight:bold; font-size: 28px;">
+            당신의 시간을 팝니다!&nbsp</span>
+            <span class="price" style="font-size: 13px;"> 10,000원/1패키지 당</span>
+        </div>
+        <div class="card-text"><br>
+            오늘 당신의 시간은 어디로 가고있나요?<br>아직도 시간이 하고 싶은대로 끌려다니시나요?<br>시간이 자기 맘대로 하게 놔두지 맙시다!<br>시간 관리 패키지로 당신의 시간을 지켜드립니다.
+        </div>
+        <!--   주문칸    -->
+        <div class="order-top"><h2><br>order</h2></div>
+        <div class="order-body">
+            <div>
+                <span>name : </span><textarea class='entry' style="height:1rem"></textarea>
+            </div>
+            <div>
+                <span>address : </span><textarea class='entry' style="height:1rem"></textarea>
+            </div>
+            <div>
+                <span>phone : </span> </span><textarea class='entry' style="height:1rem"></textarea>
+            </div>
+            <div>
+                <span class="order-tap">
+                    package :
+                </span>
+                <span class="dropdown">
+                    <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-size:8px;">
+                        --select--
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">작심삼일권 </a>
+                        <a class="dropdown-item" href="#">습관만들기 7일권</a>
+                        <a class="dropdown-item" href="#">평생이용권</a>
+                    </div>
+                    <br><br>
+                </span>
+            </div>
+
+        </div>
+        <a onclick="hey()" href="#" class="btn btn-dark">ORDER</a>
+        <br><br>
+    </div>
+</div>
+</body>
+</html>
